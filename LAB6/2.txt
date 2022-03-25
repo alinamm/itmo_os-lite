@@ -1,0 +1,5 @@
+1. cmd /k hostname
+3. schtasks /Create /SC MINUTE /TN copy /TR copy.cmd
+4. schtasks /Query | find "copy"
+schtasks /End fc C:\Windows\Inst_Device.log  \\LAPTOP-0E65KIJ2\temp\Inst_Device.log /TN copy
+5. fc C:\Windows\Inst_Device.log  \\LAPTOP-0E65KIJ2\temp\Inst_Device.log

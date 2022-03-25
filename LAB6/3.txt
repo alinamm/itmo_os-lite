@@ -1,0 +1,8 @@
+1. net start > C:\LAB6\net_3.txt
+2. net stop dnscache
+3_1:
+timeout /t 2
+net start > C:\LAB6\net_3_1.txt
+3_2.cmd
+3_2:
+fc C:\LAB6\net_3.txt C:\LAB6\net_3_1.txt  1>res_3.txt

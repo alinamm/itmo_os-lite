@@ -1,0 +1,1 @@
+fc C:\LAB6\net_3.txt C:\LAB6\net_3_1.txt > res_3.txt

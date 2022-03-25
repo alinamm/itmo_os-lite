@@ -1,0 +1,1 @@
+xcopy /z C:\Windows\Inst_Device.log \\LAPTOP-0E65KIJ2\temp\Inst_Device.log

@@ -1,0 +1,5 @@
+1.	systeminfo (systeminfo | findstr “…”)
+wmic diskdrive get model, serialNumber, size, mediaType
+2.	xcopy C:\LAB6 C:\LAB6\TEST
+3.	for /f “tokens=*” %a in (“dir TEST\*.txt”) do type %a >> 1_3.log
+4.	for %i in (*) do if not "%i"=="1_3.log" del "%i"
